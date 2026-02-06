@@ -479,6 +479,6 @@ export const projectsData: Project[] = [
       'SEO optimized with meta tags',
     ],
     visibility: 'public',
-    featured: true,
+    featured: false,
   },
 ];
