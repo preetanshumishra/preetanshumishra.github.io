@@ -52,13 +52,15 @@ src/
 
 ## Deployment
 
-Deploy to Vercel with automatic builds on git push:
+This portfolio is deployed on GitHub Pages at: https://preetanshumishra.github.io
+
+### Deploy Command
 
 ```bash
-vercel deploy
+npm run deploy
 ```
 
-Or connect your GitHub repository to Vercel for automatic deployments.
+This builds the project and deploys to the `gh-pages` branch which is automatically served by GitHub Pages.
 
 ## License
 
