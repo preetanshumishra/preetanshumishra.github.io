@@ -12,7 +12,7 @@ This portfolio displays my work across multiple domains including financial mana
 - **Build Tool**: Vite 7.2.4
 - **Language**: TypeScript 5.9.x
 - **Styling**: CSS with CSS variables for theming
-- **Deployment**: Vercel
+- **Deployment**: GitHub Pages
 
 ## Quick Start
 
@@ -54,13 +54,18 @@ src/
 
 This portfolio is deployed on GitHub Pages at: https://preetanshumishra.github.io
 
+GitHub Pages serves the site from the `/docs` folder on the main branch.
+
 ### Deploy Command
 
 ```bash
-npm run deploy
+npm run deploy          # Build and copy to docs/
+git add docs
+git commit -m "Update production build"
+git push origin main
 ```
 
-This builds the project and deploys to the `gh-pages` branch which is automatically served by GitHub Pages.
+The `npm run deploy` command builds the project and copies the files to the `docs/` folder. Then commit and push to update the live site.
 
 ## License
 
