@@ -55,13 +55,21 @@ My journey has taken me through diverse domains — **financial management syste
 ## 🌟 Featured Projects
 
 ### 💰 FinBoss - Financial Management Ecosystem
-A comprehensive financial management platform spanning 6 interconnected projects:
-- **Mobile Apps**: Native iOS (Swift 6 + SwiftUI), Native Android (Kotlin + Compose), React Native (Expo)
-- **Backend**: Node.js + Express + MongoDB with JWT authentication
-- **Web Frontend**: React 19 + TypeScript + Vite
-- **Shared Package**: Reusable TypeScript services and state management
+A comprehensive financial management platform spanning 6 interconnected projects with transaction tracking, budgeting, analytics, and dark mode:
 
-🔗 [View on GitHub](https://github.com/preetanshumishra?tab=repositories&q=finboss)
+**Backend & API:**
+- **[FinBossAPI](https://github.com/preetanshumishra/FinBossAPI)**: Node.js/Express REST API with MongoDB, JWT authentication, Swagger documentation, and 29 endpoints across 5 domains
+
+**Web Application:**
+- **[FinBossWeb](https://github.com/preetanshumishra/FinBossWeb)**: React 19 + TypeScript + Vite web app with Zustand state management, 73 Jest tests, and deployed on Vercel
+
+**Mobile Applications:**
+- **[FinBossiOS](https://github.com/preetanshumishra/FinBossiOS)**: Native iOS app with Swift 6, SwiftUI, MVVM architecture, and manual dependency injection
+- **[FinBossAndroid](https://github.com/preetanshumishra/FinBossAndroid)**: Native Android app with Kotlin, Jetpack Compose, Material3, Dagger, and Retrofit
+- **[FinBossMobile](https://github.com/preetanshumishra/FinBossMobile)**: Cross-platform React Native app with Expo, TypeScript, and Zustand for iOS/Android
+
+**Shared Library:**
+- **[FinBossShared](https://github.com/preetanshumishra/FinBossShared)**: NPM package (@preetanshu/finboss-shared) with reusable API services, Zustand stores, and TypeScript types
 
 ### 🎨 .NET MAUI Cross-Platform Samples
 Modern .NET MAUI applications demonstrating MVVM patterns and enterprise frameworks:
