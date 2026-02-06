@@ -63,10 +63,21 @@ A comprehensive financial management platform spanning 6 interconnected projects
 
 🔗 [View on GitHub](https://github.com/preetanshumishra?tab=repositories&q=finboss)
 
-### 🎨 Cross-Platform Showcases
-- **MAUI Applications**: Modern .NET MAUI samples with MVVM patterns
-- **React Native Themes**: Dynamic theming system with 5+ color schemes
-- **Native Mobile**: Enterprise-grade iOS/Android apps with MvvmCross
+### 🎨 .NET MAUI Cross-Platform Samples
+Modern .NET MAUI applications demonstrating MVVM patterns and enterprise frameworks:
+- **[MauiWithMvvm](https://github.com/preetanshumishra/MauiWithMvvm)**: Constructor injection with Community Toolkit MVVM, source generators, observable properties
+- **[MauiWithPrism](https://github.com/preetanshumishra/MauiWithPrism)**: Prism framework integration with DryIOC dependency injection
+- **[MauiWithMvvCross](https://github.com/preetanshumishra/MauiWithMvvCross)**: MvvmCross enterprise MVVM with plugin architecture
+- **[MauiThemeSample](https://github.com/preetanshumishra/MauiThemeSample)**: Dynamic theming with 5 color schemes and persistent storage
+
+### 📱 React Native & Theming
+- **[ReactNativeDynamicTheme](https://github.com/preetanshumishra/ReactNativeDynamicTheme)**: React Native app with 5 themes (Light, Dark, Ocean, Forest, Sunset) using Zustand + AsyncStorage persistence
+
+### 🚀 Native Mobile Development
+- **[DotNetMobileApp](https://github.com/preetanshumishra/DotNetMobileApp)**: Native iOS (UIKit) and Android implementations with .NET 8.0, MvvmCross MVVM, and shared Core library
+
+### 🎨 Legacy Mobile Samples
+- **[Theme-Xamarin-Forms](https://github.com/preetanshumishra/Theme-Xamarin-Forms)**: Xamarin.Forms reference project demonstrating XAML resource-based theming patterns
 
 ---
 
