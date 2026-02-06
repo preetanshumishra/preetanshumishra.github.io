@@ -2,36 +2,6 @@ import type { Project } from '../types/projects';
 
 export const projectsData: Project[] = [
   {
-    id: 'developer-portfolio',
-    name: 'Developer Portfolio',
-    description: 'Personal portfolio website built with React, TypeScript, and Vite',
-    longDescription:
-      'A modern, responsive portfolio website showcasing projects, skills, and experience. Features include dark mode support, project filtering, smooth scrolling navigation, and responsive design for all devices. Deployed on GitHub Pages with automated builds.',
-    technologies: [
-      'React',
-      'TypeScript',
-      'Vite',
-      'CSS Variables',
-      'GitHub Pages',
-    ],
-    category: 'Production',
-    platform: ['Web'],
-    githubUrl: 'https://github.com/preetanshumishra/preetanshumishra.github.io',
-    liveUrl: 'https://preetanshumishra.github.io',
-    highlights: [
-      'Modern React 19 with TypeScript',
-      'Vite for fast development and builds',
-      'Responsive design (mobile, tablet, desktop)',
-      'Dark/light theme toggle with CSS variables',
-      'Smooth scrolling navigation',
-      'Project filtering by category',
-      'Deployed on GitHub Pages from main/docs',
-      'SEO optimized with meta tags',
-    ],
-    visibility: 'public',
-    featured: true,
-  },
-  {
     id: 'finboss-suite',
     name: 'FinBoss Suite',
     description: 'Complete financial management application ecosystem with 6 interconnected projects',
@@ -480,5 +450,35 @@ export const projectsData: Project[] = [
       'Learning resource',
     ],
     visibility: 'private',
+  },
+  {
+    id: 'developer-portfolio',
+    name: 'Developer Portfolio',
+    description: 'Personal portfolio website built with React, TypeScript, and Vite',
+    longDescription:
+      'A modern, responsive portfolio website showcasing projects, skills, and experience. Features include dark mode support, project filtering, smooth scrolling navigation, and responsive design for all devices. Deployed on GitHub Pages with automated builds.',
+    technologies: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'CSS Variables',
+      'GitHub Pages',
+    ],
+    category: 'Sample',
+    platform: ['Web'],
+    githubUrl: 'https://github.com/preetanshumishra/preetanshumishra.github.io',
+    liveUrl: 'https://preetanshumishra.github.io',
+    highlights: [
+      'Modern React 19 with TypeScript',
+      'Vite for fast development and builds',
+      'Responsive design (mobile, tablet, desktop)',
+      'Dark/light theme toggle with CSS variables',
+      'Smooth scrolling navigation',
+      'Project filtering by category',
+      'Deployed on GitHub Pages from main/docs',
+      'SEO optimized with meta tags',
+    ],
+    visibility: 'public',
+    featured: true,
   },
 ];
