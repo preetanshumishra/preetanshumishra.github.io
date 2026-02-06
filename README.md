@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-preetanshumishra.github.io-orange?style=for-the-badge&logo=github)](https://preetanshumishra.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-preetanshumishra-181717?style=for-the-badge&logo=github)](https://github.com/preetanshumishra)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/preetanshumishra)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/preetanshu/)
 
 </div>
 
@@ -74,9 +74,9 @@ A comprehensive financial management platform spanning 6 interconnected projects
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=preetanshumishra&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=preetanshumishra&theme=radical&hide_border=true&background=0D1117)](https://github.com/preetanshumishra)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=preetanshumishra&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=preetanshumishra&theme=redical&hide_border=true&bg_color=0D1117&color=fb923c&line=ea580c&point=fff7ed)](https://github.com/preetanshumishra)
 
 </div>
 
@@ -160,7 +160,7 @@ I'm always open to interesting conversations and collaboration opportunities!
 
 [![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio-orange?style=for-the-badge)](https://preetanshumishra.github.io)
 [![Email](https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:preetanshumishra@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/preetanshumishra)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/preetanshu/)
 [![GitHub](https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/preetanshumishra)
 
 </div>
