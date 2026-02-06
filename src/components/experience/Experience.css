@@ -6,18 +6,6 @@
   padding-left: 40px; /* Space for timeline connector */
 }
 
-/* Vertical timeline line */
-.experience-list::before {
-  content: '';
-  position: absolute;
-  left: 14px; /* Center of 28px timeline area */
-  top: 28px; /* Start aligned with first dot */
-  bottom: 28px; /* End aligned with last dot */
-  width: 2px;
-  background-color: var(--border-primary);
-  z-index: 0;
-}
-
 /* Responsive: Hide timeline on mobile */
 @media (max-width: 768px) {
   .experience-list {
