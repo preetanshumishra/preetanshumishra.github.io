@@ -74,9 +74,13 @@ A comprehensive financial management platform spanning 6 interconnected projects
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=preetanshumishra&theme=radical&hide_border=true&background=0D1117)](https://github.com/preetanshumishra)
+![Profile Views](https://komarev.com/ghpvc/?username=preetanshumishra&color=orange&style=flat-square&label=Profile+Views)
+![GitHub Followers](https://img.shields.io/github/followers/preetanshumishra?style=flat-square&color=orange&logo=github&label=Followers)
+![GitHub Stars](https://img.shields.io/github/stars/preetanshumishra?style=flat-square&color=orange&logo=github&label=Stars)
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=preetanshumishra&theme=redical&hide_border=true&bg_color=0D1117&color=fb923c&line=ea580c&point=fff7ed)](https://github.com/preetanshumishra)
+<br><br>
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=preetanshumishra&theme=github-compact&hide_border=true&bg_color=ffffff&color=ea580c&line=fb923c&point=ea580c&area=true&area_color=fff7ed)
 
 </div>
 
