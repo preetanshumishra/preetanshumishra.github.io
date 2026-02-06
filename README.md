@@ -70,22 +70,6 @@ A comprehensive financial management platform spanning 6 interconnected projects
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=preetanshumishra&color=orange&style=flat-square&label=Profile+Views)
-![GitHub Followers](https://img.shields.io/github/followers/preetanshumishra?style=flat-square&color=orange&logo=github&label=Followers)
-![GitHub Stars](https://img.shields.io/github/stars/preetanshumishra?style=flat-square&color=orange&logo=github&label=Stars)
-
-<br><br>
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=preetanshumishra&theme=github-compact&hide_border=true&bg_color=ffffff&color=ea580c&line=fb923c&point=ea580c&area=true&area_color=fff7ed)
-
-</div>
-
----
-
 ## 🎓 Experience Highlights
 
 - 🏢 **11+ years** in professional software development
@@ -184,5 +168,7 @@ Made with ❤️ and lots of ☕
 ---
 
 ## 📄 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This portfolio is open source and available under the [MIT License](LICENSE).
