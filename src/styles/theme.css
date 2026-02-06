@@ -1,0 +1,90 @@
+/* Theme System - CSS Variables for Light and Dark Modes */
+
+:root.light-theme {
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --bg-accent: #f0f4ff;
+
+  /* Text Colors */
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a5568;
+  --text-tertiary: #718096;
+  --text-accent: #4f46e5;
+
+  /* Border Colors */
+  --border-primary: #e2e8f0;
+  --border-secondary: #cbd5e0;
+
+  /* Component Colors */
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  /* Accent Colors */
+  --accent-primary: #4f46e5;
+  --accent-secondary: #10b981;
+  --accent-tertiary: #f59e0b;
+
+  /* Interactive States */
+  --hover-bg: #f7fafc;
+  --active-bg: #edf2f7;
+  --focus-ring: #4f46e5;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+:root.dark-theme {
+  /* Background Colors */
+  --bg-primary: #0f1419;
+  --bg-secondary: #1a1f2e;
+  --bg-tertiary: #252d3d;
+  --bg-accent: #1e2738;
+
+  /* Text Colors */
+  --text-primary: #f7fafc;
+  --text-secondary: #cbd5e0;
+  --text-tertiary: #a0aec0;
+  --text-accent: #818cf8;
+
+  /* Border Colors */
+  --border-primary: #2d3748;
+  --border-secondary: #4a5568;
+
+  /* Component Colors */
+  --card-bg: #1a1f2e;
+  --card-border: #2d3748;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+
+  /* Accent Colors */
+  --accent-primary: #818cf8;
+  --accent-secondary: #34d399;
+  --accent-tertiary: #fbbf24;
+
+  /* Interactive States */
+  --hover-bg: #252d3d;
+  --active-bg: #2d3748;
+  --focus-ring: #818cf8;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+/* Default to dark theme */
+:root {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not(.dark-theme) {
+    color-scheme: light;
+  }
+}
