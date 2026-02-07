@@ -254,7 +254,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'xamarin-mvvmcross-forms',
-    name: 'MvvmCross Xamarin.Forms',
+    name: 'Xamarin.Forms.MvvmCross',
     description: 'Xamarin.Forms with MvvmCross MVVM framework',
     technologies: ['Xamarin.Forms', 'MvvmCross', 'C#', 'MVVM'],
     category: 'Tutorial',
@@ -271,7 +271,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'xamarin-mvvmcross-native',
-    name: 'MvvmCross Xamarin Native',
+    name: 'Xamarin.Native.MvvmCross',
     description: 'Native iOS/Android with MvvmCross framework',
     technologies: ['Xamarin Native', 'MvvmCross', 'C#', 'MVVM'],
     category: 'Tutorial',
@@ -288,7 +288,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'prism-forms-unity',
-    name: 'Prism Xamarin.Forms with Unity',
+    name: 'Xamarin.Forms.Prism.Unity',
     description: 'Prism MVVM framework with Unity IoC container',
     technologies: ['Xamarin.Forms', 'Prism', 'Unity', 'C#'],
     category: 'Tutorial',
@@ -305,7 +305,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'prism-forms-autofac',
-    name: 'Prism Xamarin.Forms with Autofac',
+    name: 'Xamarin.Forms.Prism.Autofac',
     description: 'Prism MVVM framework with Autofac DI container',
     technologies: ['Xamarin.Forms', 'Prism', 'Autofac', 'C#'],
     category: 'Tutorial',
@@ -322,7 +322,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'prism-forms-dryioc',
-    name: 'Prism Xamarin.Forms with DryIOC',
+    name: 'Xamarin.Forms.Prism.DryIoC',
     description: 'Prism MVVM framework with DryIOC DI container',
     technologies: ['Xamarin.Forms', 'Prism', 'DryIOC', 'C#'],
     category: 'Tutorial',
@@ -339,7 +339,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'xamarin-event-handling',
-    name: 'Event Handling iOS & Android',
+    name: 'Xamarin.Native.Event.Handling',
     description: 'Native event handling patterns for Xamarin',
     technologies: ['Xamarin.iOS', 'Xamarin.Android', 'C#'],
     category: 'Tutorial',
@@ -356,7 +356,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'xamarin-parsing',
-    name: 'Data Parsing Xamarin',
+    name: 'Xamarin.Forms.Data.Parsing',
     description: 'Data parsing and handling tutorial for Xamarin',
     technologies: ['Xamarin', 'C#', 'JSON', 'XML'],
     category: 'Tutorial',
@@ -390,7 +390,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'zuzu-demo',
-    name: 'ZuZu Demo',
+    name: 'ZuZu.Demo',
     description: 'Firebase and WeatherStack API integration demo',
     technologies: ['Xamarin', 'Firebase', 'WeatherStack API', 'C#'],
     category: 'Demo',
@@ -406,7 +406,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'zuzu-phone',
-    name: 'ZuZu Phone Number Problem',
+    name: 'ZuZu.Phone.Number.Problem',
     description: 'Coding challenge and problem-solving practice',
     technologies: ['Xamarin', 'C#', 'Algorithms'],
     category: 'Demo',
@@ -422,7 +422,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'restly',
-    name: 'Restly',
+    name: 'RestlyDemo',
     description: 'REST API client and testing application',
     technologies: ['Xamarin.Forms', 'C#', 'REST APIs'],
     category: 'Sample',
@@ -438,7 +438,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'inventive-it',
-    name: 'Inventive IT Demo',
+    name: 'Inventive.IT.Demo',
     description: 'Demo project showcasing various technologies',
     technologies: ['Various'],
     category: 'Demo',

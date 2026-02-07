@@ -53,6 +53,8 @@ export const experienceData: Experience[] = [
       'Implemented real-time notifications and synchronization mechanisms',
       'Led code review process ensuring high code quality standards',
       'Collaborated with product and design teams to deliver user-centric solutions',
+      'Implemented analytics and monitoring to track app performance and user engagement',
+      'Implemented Accessibility features to improve app usability for all users',
     ],
     technologies: ['iOS', 'Android', 'Swift', 'Kotlin', 'MVVM', 'Clean Architecture'],
     isRemote: false,
@@ -68,7 +70,7 @@ export const experienceData: Experience[] = [
     description:
       'Technical lead for multiple mission-critical mobile applications, managing teams of 2-6 developers across different projects.',
     achievements: [
-      'Led HR Management System development, overseeing timesheets and payroll management for 500+ employees',
+      'Led HR Management System App development, overseeing timesheets and payroll management for 500+ employees',
       'Developed Vehicle Insurance System enabling customers to manage policies seamlessly',
       'Collaborated with team of 6 developers on Healthcare and Fitness App features',
       'Implemented enterprise-grade architecture patterns and best practices',
