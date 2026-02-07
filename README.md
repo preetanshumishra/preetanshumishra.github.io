@@ -1,12 +1,18 @@
 <div align="center">
 
-# 👋 Hi, I'm Preetanshu Mishra
+# Hey there! 👋 I'm Preetanshu
 
-### Senior Mobile Application Developer | Full-Stack Engineer | Cross-Platform Specialist
+<p align="center">
+  <strong>Senior Mobile Application Developer</strong><br>
+  <em>11+ Years of Experience</em><br>
+  <code>iOS • Android • Cross-Platform • .NET MAUI • Xamarin • React Native</code>
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-preetanshumishra.github.io-orange?style=for-the-badge&logo=github)](https://preetanshumishra.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-preetanshumishra-181717?style=for-the-badge&logo=github)](https://github.com/preetanshumishra)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/preetanshu/)
+<p align="center">
+  <a href="https://preetanshumishra.github.io"><img src="https://img.shields.io/badge/🌐_Portfolio-FF6B35?style=for-the-badge&logoColor=white"/></a>
+  <a href="https://github.com/preetanshumishra"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/preetanshu/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
 
 </div>
 
@@ -92,7 +98,7 @@ Modern .NET MAUI applications demonstrating MVVM patterns and enterprise framewo
 ## 🎓 Experience Highlights
 
 - 🏢 **11+ years** in professional software development
-- 📱 **50+ apps** developed and deployed across iOS, Android, and cross-platform
+- 📱 **25+ apps** developed and deployed across iOS, Android, and cross-platform
 - 🌍 Worked with **Fortune 500 companies** and **innovative startups**
 - 👥 Led and mentored **development teams** of 5-10 engineers
 - 🎯 Specialized in **MVVM architecture**, **clean code**, and **test-driven development**
