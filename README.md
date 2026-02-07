@@ -87,43 +87,6 @@ My journey has taken me through diverse domains — **financial management syste
 
 ---
 
-## 🌟 Featured Projects
-
-### 💰 FinBoss - Financial Management Ecosystem
-A comprehensive financial management platform spanning 6 interconnected projects with transaction tracking, budgeting, analytics, and dark mode:
-
-**Backend & API:**
-- **[FinBossAPI](https://github.com/preetanshumishra/FinBossAPI)**: Node.js/Express REST API with MongoDB, JWT authentication, Swagger documentation, and 29 endpoints across 5 domains
-
-**Web Application:**
-- **[FinBossWeb](https://github.com/preetanshumishra/FinBossWeb)**: React 19 + TypeScript + Vite web app with Zustand state management, 73 Jest tests, and deployed on Vercel
-
-**Mobile Applications:**
-- **[FinBossiOS](https://github.com/preetanshumishra/FinBossiOS)**: Native iOS app with Swift 6, SwiftUI, MVVM architecture, and manual dependency injection
-- **[FinBossAndroid](https://github.com/preetanshumishra/FinBossAndroid)**: Native Android app with Kotlin, Jetpack Compose, Material3, Dagger, and Retrofit
-- **[FinBossMobile](https://github.com/preetanshumishra/FinBossMobile)**: Cross-platform React Native app with Expo, TypeScript, and Zustand for iOS/Android
-
-**Shared Library:**
-- **[FinBossShared](https://github.com/preetanshumishra/FinBossShared)**: NPM package (@preetanshu/finboss-shared) with reusable API services, Zustand stores, and TypeScript types
-
-### 🎨 .NET MAUI Cross-Platform Samples
-Modern .NET MAUI applications demonstrating MVVM patterns and enterprise frameworks:
-- **[MauiWithMvvm](https://github.com/preetanshumishra/MauiWithMvvm)**: Constructor injection with Community Toolkit MVVM, source generators, observable properties
-- **[MauiWithPrism](https://github.com/preetanshumishra/MauiWithPrism)**: Prism framework integration with DryIOC dependency injection
-- **[MauiWithMvvCross](https://github.com/preetanshumishra/MauiWithMvvCross)**: MvvmCross enterprise MVVM with plugin architecture
-- **[MauiThemeSample](https://github.com/preetanshumishra/MauiThemeSample)**: Dynamic theming with 5 color schemes and persistent storage
-
-### 📱 React Native & Theming
-- **[ReactNativeDynamicTheme](https://github.com/preetanshumishra/ReactNativeDynamicTheme)**: React Native app with 5 themes (Light, Dark, Ocean, Forest, Sunset) using Zustand + AsyncStorage persistence
-
-### 🚀 Native Mobile Development
-- **[DotNetMobileApp](https://github.com/preetanshumishra/DotNetMobileApp)**: Native iOS (UIKit) and Android implementations with .NET 8.0, MvvmCross MVVM, and shared Core library
-
-### 🎨 Legacy Mobile Samples
-- **[Theme-Xamarin-Forms](https://github.com/preetanshumishra/Theme-Xamarin-Forms)**: Xamarin.Forms reference project demonstrating XAML resource-based theming patterns
-
----
-
 ## 🎓 Experience Highlights
 
 - 🏢 **11+ years** in professional software development
