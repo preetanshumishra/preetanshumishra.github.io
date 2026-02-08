@@ -19,7 +19,9 @@ export const Hero: React.FC = () => {
             Senior Mobile Application Developer
           </p>
           <p className="hero-description">
-            11+ years building exceptional mobile experiences across Android, iOS, .NET MAUI, and React Native
+            11+ years of experience in Mobile Application Development
+            <br />
+            (Android, iOS, .NET MAUI, Xamarin, React Native)
           </p>
 
           <div className="hero-cta">
