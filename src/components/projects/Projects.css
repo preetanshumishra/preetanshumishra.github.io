@@ -27,6 +27,7 @@
   background-color: var(--accent-primary);
   color: var(--bg-primary);
   border-color: var(--accent-primary);
+  box-shadow: var(--glow-primary);
 }
 
 .projects-section {

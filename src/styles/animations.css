@@ -180,7 +180,7 @@
 
 .lift-on-hover:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-lg), var(--glow-primary);
 }
 
 /* Hover Scale */
@@ -195,6 +195,20 @@
 /* Smooth Scroll Behavior */
 html {
   scroll-behavior: smooth;
+}
+
+/* Glow Pulse */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(249, 115, 22, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 24px rgba(249, 115, 22, 0.25);
+  }
+}
+
+.glow-pulse {
+  animation: glowPulse 3s ease-in-out infinite;
 }
 
 /* Reduced Motion Support */

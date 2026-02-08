@@ -47,7 +47,7 @@ section:first-of-type {
 }
 
 .card:hover {
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-lg), var(--glow-primary);
   border-color: var(--accent-primary);
 }
 
@@ -63,6 +63,7 @@ section:first-of-type {
   padding: var(--space-2) var(--space-3);
   background-color: var(--bg-accent);
   color: var(--accent-primary);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-full);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
@@ -104,7 +105,7 @@ section:first-of-type {
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-lg), var(--glow-primary);
 }
 
 .btn:active {
@@ -125,6 +126,7 @@ section:first-of-type {
 .btn.secondary:hover {
   background-color: var(--accent-primary);
   color: var(--bg-primary);
+  box-shadow: var(--glow-primary);
 }
 
 .btn.small {

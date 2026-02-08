@@ -61,6 +61,14 @@ main {
   outline: none;
 }
 
+/* Glassmorphism Utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+}
+
 /* Default theme - Dark */
 :root:not(.light-theme) {
   --theme: dark;

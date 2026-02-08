@@ -48,9 +48,11 @@
 .stat:hover {
   border-color: var(--accent-primary);
   background-color: var(--bg-accent);
+  box-shadow: var(--glow-primary);
 }
 
 .stat-value {
+  font-family: var(--font-display);
   font-size: var(--text-4xl);
   font-weight: var(--weight-bold);
   color: var(--accent-primary);

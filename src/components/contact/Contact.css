@@ -33,7 +33,7 @@
   border-color: var(--accent-primary);
   background-color: var(--bg-accent);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md), var(--glow-primary);
 }
 
 .contact-icon {
@@ -47,6 +47,7 @@
   color: var(--bg-primary);
   border-radius: var(--radius-md);
   flex-shrink: 0;
+  box-shadow: var(--glow-primary);
 }
 
 .contact-label {
@@ -82,8 +83,10 @@
 }
 
 .contact-cta {
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--border-primary);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
   text-align: center;
