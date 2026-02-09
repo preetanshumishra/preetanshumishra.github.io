@@ -1,4 +1,5 @@
 import React from 'react';
+import { FileText } from 'lucide-react';
 import { SocialLinks } from '../common/SocialLinks';
 import './Hero.css';
 
@@ -31,6 +32,15 @@ export const Hero: React.FC = () => {
             >
               View My Work
             </button>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-with-icon"
+            >
+              <FileText size={20} />
+              View Resume
+            </a>
             <button
               className="btn secondary"
               onClick={() => scrollToSection('contact')}

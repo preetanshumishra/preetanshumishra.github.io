@@ -95,6 +95,12 @@
   }
 }
 
+.btn-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
 .hero-social {
   display: flex;
   justify-content: center;

@@ -32,7 +32,12 @@
 }
 
 .social-icon {
-  font-size: var(--text-lg);
-  font-weight: var(--weight-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.social-icon svg {
   display: block;
 }

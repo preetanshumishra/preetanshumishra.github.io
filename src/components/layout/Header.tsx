@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FileText } from 'lucide-react';
 import { ThemeToggle } from '../common/ThemeToggle';
 import classNames from '../../utils/classNames';
 import './Header.css';
@@ -41,6 +42,16 @@ export const Header: React.FC = () => {
           </nav>
 
           <div className="header-actions">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-link"
+              aria-label="View Resume"
+            >
+              <FileText size={18} />
+              <span>Resume</span>
+            </a>
             <ThemeToggle />
             <button
               className={classNames('menu-toggle', { active: menuOpen })}

@@ -24,6 +24,10 @@
   gap: var(--space-4);
 }
 
+.footer-section .social-links {
+  justify-content: flex-start;
+}
+
 .footer-title {
   font-size: var(--text-base);
   font-weight: var(--weight-semibold);

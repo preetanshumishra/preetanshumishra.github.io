@@ -1,4 +1,5 @@
 import React from 'react';
+import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { SocialLinks } from '../common/SocialLinks';
 import { contactInfo } from '../../data/contact';
@@ -14,7 +15,9 @@ export const Contact: React.FC = () => {
       <div className="contact-content">
         <div className="contact-methods">
           <a href={`mailto:${contactInfo.email}`} className="contact-item">
-            <span className="contact-icon">@</span>
+            <span className="contact-icon">
+              <Mail size={24} />
+            </span>
             <div>
               <p className="contact-label">Email</p>
               <p className="contact-value">{contactInfo.email}</p>
@@ -22,7 +25,9 @@ export const Contact: React.FC = () => {
           </a>
 
           <a href={`tel:${contactInfo.phone}`} className="contact-item">
-            <span className="contact-icon">📞</span>
+            <span className="contact-icon">
+              <Phone size={24} />
+            </span>
             <div>
               <p className="contact-label">Phone</p>
               <p className="contact-value">{contactInfo.phone}</p>
@@ -35,7 +40,9 @@ export const Contact: React.FC = () => {
             rel="noopener noreferrer"
             className="contact-item"
           >
-            <span className="contact-icon">🔗</span>
+            <span className="contact-icon">
+              <Linkedin size={24} />
+            </span>
             <div>
               <p className="contact-label">LinkedIn</p>
               <p className="contact-value">Connect on LinkedIn</p>
@@ -48,7 +55,9 @@ export const Contact: React.FC = () => {
             rel="noopener noreferrer"
             className="contact-item"
           >
-            <span className="contact-icon">𝒢</span>
+            <span className="contact-icon">
+              <Github size={24} />
+            </span>
             <div>
               <p className="contact-label">GitHub</p>
               <p className="contact-value">View My Projects</p>

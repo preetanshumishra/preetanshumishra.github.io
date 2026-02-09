@@ -4,7 +4,7 @@ export const experienceData: Experience[] = [
   {
     id: '1',
     company: 'Stack Constructions Canada',
-    position: 'Software Engineer',
+    position: 'Mobile Software Engineer',
     location: 'Montreal, QC',
     startDate: 'Dec 2023',
     endDate: 'Nov 2025',
@@ -23,7 +23,7 @@ export const experienceData: Experience[] = [
   {
     id: '2',
     company: 'Sidekick Interactive',
-    position: 'Mobile Developer',
+    position: 'Senior Mobile Developer',
     location: 'Montreal, QC',
     startDate: 'Nov 2023',
     endDate: 'Feb 2024',

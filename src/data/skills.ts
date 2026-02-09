@@ -4,7 +4,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'android',
     name: 'Android Development',
-    icon: '🤖',
+    icon: 'smartphone',
     skills: [
       { name: 'Kotlin', proficiency: 5, yearsOfExperience: 7 },
       { name: 'Jetpack Compose', proficiency: 5, yearsOfExperience: 5 },
@@ -19,7 +19,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'ios',
     name: 'iOS Development',
-    icon: '🍎',
+    icon: 'tablet-smartphone',
     skills: [
       { name: 'Swift', proficiency: 5, yearsOfExperience: 5 },
       { name: 'SwiftUI', proficiency: 5, yearsOfExperience: 5 },
@@ -34,7 +34,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'dotnet',
     name: '.NET & Cross-Platform',
-    icon: '⚙️',
+    icon: 'code',
     skills: [
       { name: '.NET MAUI', proficiency: 4, yearsOfExperience: 3 },
       { name: 'Xamarin', proficiency: 5, yearsOfExperience: 11 },
@@ -49,7 +49,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'react-native',
     name: 'React Native',
-    icon: '⚛️',
+    icon: 'code-2',
     skills: [
       { name: 'React Native', proficiency: 4, yearsOfExperience: 3 },
       { name: 'TypeScript', proficiency: 5, yearsOfExperience: 3 },
@@ -62,7 +62,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'architecture',
     name: 'Architecture & Patterns',
-    icon: '🏗️',
+    icon: 'building-2',
     skills: [
       { name: 'Clean Architecture', proficiency: 5, yearsOfExperience: 8 },
       { name: 'MVVM Architecture', proficiency: 5, yearsOfExperience: 8 },
@@ -77,7 +77,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'testing',
     name: 'Testing & QA',
-    icon: '✅',
+    icon: 'check-circle-2',
     skills: [
       { name: 'Unit Testing (JUnit)', proficiency: 4, yearsOfExperience: 5 },
       { name: 'Unit Testing (XUnit)', proficiency: 5, yearsOfExperience: 8 },
@@ -91,7 +91,7 @@ export const skillsData: SkillCategory[] = [
   {
     id: 'tools',
     name: 'Tools & Technologies',
-    icon: '🛠️',
+    icon: 'wrench',
     skills: [
       { name: 'Git/GitHub', proficiency: 5, yearsOfExperience: 10 },
       { name: 'Xcode', proficiency: 5, yearsOfExperience: 11 },

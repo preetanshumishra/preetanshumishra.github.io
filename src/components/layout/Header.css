@@ -115,6 +115,33 @@
   align-items: center;
 }
 
+/* Resume Link */
+.resume-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: var(--accent-primary);
+  color: var(--bg-primary);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: var(--weight-medium);
+  font-size: var(--text-sm);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.resume-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md), var(--glow-primary);
+}
+
+@media (max-width: 767px) {
+  .resume-link {
+    display: none;
+  }
+}
+
 /* Menu Toggle */
 .menu-toggle {
   display: flex;

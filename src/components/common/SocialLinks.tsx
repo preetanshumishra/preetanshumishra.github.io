@@ -1,13 +1,14 @@
 import React from 'react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { socialLinks } from '../../data/contact';
 import './SocialLinks.css';
 
 export const SocialLinks: React.FC = () => {
   const getIcon = (icon: string) => {
-    const icons: Record<string, string> = {
-      github: '𝒢',
-      linkedin: 'in',
-      email: '@',
+    const icons: Record<string, React.ReactNode> = {
+      github: <Github size={20} />,
+      linkedin: <Linkedin size={20} />,
+      email: <Mail size={20} />,
     };
     return icons[icon] || icon;
   };
