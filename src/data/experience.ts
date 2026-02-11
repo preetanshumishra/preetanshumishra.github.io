@@ -17,7 +17,7 @@ export const experienceData: Experience[] = [
       'Optimized app performance resulting in 40% faster load times',
       'Mentored junior developers in mobile development best practices',
     ],
-    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Coroutines'],
+    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
     isRemote: true,
   },
   {
@@ -56,7 +56,7 @@ export const experienceData: Experience[] = [
       'Implemented analytics and monitoring to track app performance and user engagement',
       'Implemented Accessibility features to improve app usability for all users',
     ],
-    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Coroutines'],
+    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
     isRemote: false,
   },
   {
@@ -76,7 +76,7 @@ export const experienceData: Experience[] = [
       'Implemented enterprise-grade architecture patterns and best practices',
       'Managed end-to-end development lifecycle from design to deployment',
     ],
-    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Coroutines'],
+    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'UIKit', 'Kotlin', 'Dagger', 'Jetpack Compose', 'XML', 'MVVM', 'Clean Architecture', 'Coroutines'],
     isRemote: false,
   },
   {
