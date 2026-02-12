@@ -6,7 +6,8 @@ import {
   Code2,
   Building2,
   CheckCircle2,
-  Wrench
+  Wrench,
+  Workflow
 } from 'lucide-react';
 import type { SkillCategory } from '../../types/skills';
 import './SkillCard.css';
@@ -24,6 +25,7 @@ const getIcon = (iconName: string) => {
     'building-2': <Building2 size={28} />,
     'check-circle-2': <CheckCircle2 size={28} />,
     'wrench': <Wrench size={28} />,
+    'workflow': <Workflow size={28} />,
   };
   return icons[iconName] || null;
 };

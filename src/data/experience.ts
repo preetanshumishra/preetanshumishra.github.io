@@ -17,7 +17,7 @@ export const experienceData: Experience[] = [
       'Optimized app performance resulting in 40% faster load times',
       'Mentored junior developers in mobile development best practices',
     ],
-    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
+    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Hilt', 'Koin', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
     isRemote: true,
   },
   {
@@ -35,7 +35,7 @@ export const experienceData: Experience[] = [
       'Implemented automated testing to improve code reliability',
       'Reduced technical debt through systematic refactoring efforts',
     ],
-    technologies: ['.NET MAUI', 'Xamarin.Forms', 'C#', '.NET 10', '.NET 8', 'MVVM'],
+    technologies: ['.NET MAUI', 'Xamarin.Forms', 'C#', '.NET 10', '.NET 8', 'MVVM', 'PrismMvvm', 'App Center'],
     isRemote: true,
   },
   {
@@ -56,7 +56,7 @@ export const experienceData: Experience[] = [
       'Implemented analytics and monitoring to track app performance and user engagement',
       'Implemented Accessibility features to improve app usability for all users',
     ],
-    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
+    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Hilt', 'Koin', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
     isRemote: false,
   },
   {
@@ -76,7 +76,7 @@ export const experienceData: Experience[] = [
       'Implemented enterprise-grade architecture patterns and best practices',
       'Managed end-to-end development lifecycle from design to deployment',
     ],
-    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'UIKit', 'Kotlin', 'Dagger', 'Jetpack Compose', 'XML', 'MVVM', 'Clean Architecture', 'Coroutines'],
+    technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'UIKit', 'Kotlin', 'Dagger', 'Koin', 'Jetpack Compose', 'XML', 'MVVM', 'Clean Architecture', 'Coroutines'],
     isRemote: false,
   },
   {
@@ -96,7 +96,7 @@ export const experienceData: Experience[] = [
       'Designed and implemented Aviation Management App with focus on regulatory compliance',
       'Mentored team members on Xamarin and MVVM patterns',
     ],
-    technologies: ['Xamarin.iOS', 'Xamarin.Android', 'Xamarin.Forms', 'C#', 'SQLite', 'MvvmCross', 'PrismMvvm'],
+    technologies: ['Xamarin.iOS', 'Xamarin.Android', 'Xamarin.Forms', 'C#', 'SQLite', 'MvvmCross', 'PrismMvvm', 'Azure DevOps', 'App Center', 'NuGet'],
     isRemote: false,
   },
   {
@@ -117,7 +117,7 @@ export const experienceData: Experience[] = [
       'Created Enterprise App Store for internal company app distribution',
       'Developed Salesforce Management App for cloud-based operations',
     ],
-    technologies: ['Xamarin.iOS', 'Xamarin.Android', 'Xamarin.WinPhone', 'Xamarin.Forms', 'C#', 'SQLite', 'MvvmCross', 'PrismMvvm'],
+    technologies: ['Xamarin.iOS', 'Xamarin.Android', 'Xamarin.WinPhone', 'Xamarin.Forms', 'C#', 'SQLite', 'MvvmCross', 'PrismMvvm', 'Jenkins', 'TFS', 'NuGet'],
     isRemote: false,
   },
 ];
