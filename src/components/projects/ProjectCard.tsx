@@ -23,14 +23,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <span className="category-badge">{project.category}</span>
       </div>
       <div className="technologies">
-        {project.technologies.slice(0, 4).map((tech) => (
+        {project.technologies.map((tech) => (
           <span key={tech} className="tech-tag">
             {tech}
           </span>
         ))}
-        {project.technologies.length > 4 && (
-          <span className="tech-tag">+{project.technologies.length - 4}</span>
-        )}
       </div>
       {project.highlights.length > 0 && (
         <ul className="highlights">
