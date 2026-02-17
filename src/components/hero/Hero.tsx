@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
           <div className="hero-cta">
             <button
               className="btn"
-              onClick={() => scrollToSection('projects')}
+              onClick={() => scrollToSection('experience')}
             >
               View My Work
             </button>
