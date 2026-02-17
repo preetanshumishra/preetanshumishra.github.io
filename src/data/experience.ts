@@ -12,13 +12,17 @@ export const experienceData: Experience[] = [
     description:
       'Led mobile application development for Stack Build & Operate app, a comprehensive construction management platform.',
     achievements: [
-      'Designed and implemented new features for iOS and Android platforms using Swift and Kotlin',
+      'Built custom 2D drawing canvas with Swift/Kotlin for construction takeoff measurements - supporting multi-touch gestures, multiple layers of drawings, real-time area calculations, and vector-based infinite zoom',
+      'Contributed to 50% reduction in plan review time through offline-first architecture enabling field crews to work without WiFi',
       'Architected MVVM pattern with clean code principles for improved maintainability',
-      'Optimized app performance resulting in 40% faster load times',
       'Mentored junior developers in mobile development best practices',
     ],
     technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Hilt', 'Koin', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
     isRemote: true,
+    appLinks: [
+      { name: 'STACK Construction Management', url: 'https://apps.apple.com/us/app/stack-construction-management/id1221957820' },
+    ],
+    metrics: ['50% reduction in plan review time', '1000+ field crews using offline features'],
   },
   {
     id: '2',
@@ -30,13 +34,19 @@ export const experienceData: Experience[] = [
     duration: '4 months',
     description: 'Maintained and modernized multiple enterprise applications migrating from Xamarin.Forms to .NET MAUI.',
     achievements: [
-      'Successfully migrated legacy Xamarin.Forms apps to modern .NET MAUI framework',
+      'Modernized enterprise application portfolio by migrating legacy Xamarin.Forms apps to .NET MAUI framework - improving performance, user experience, and long-term maintainability',
       'Fixed critical bugs affecting user experience in production apps',
-      'Implemented automated testing to improve code reliability',
-      'Reduced technical debt through systematic refactoring efforts',
+      'Implemented automated testing suite and reduced technical debt through systematic refactoring',
     ],
     technologies: ['.NET MAUI', 'Xamarin.Forms', 'C#', '.NET 10', '.NET 8', 'MVVM', 'PrismMvvm', 'App Center'],
     isRemote: true,
+    appLinks: [
+      { name: 'ID Side', url: 'https://apps.apple.com/us/app/id-side/id1501285064' },
+      { name: 'Id Concerto', url: 'https://apps.apple.com/us/app/id-concerto/id896256692' },
+      { name: 'Id Écho', url: 'https://apps.apple.com/us/app/id-%C3%A9cho/id1502448085' },
+      { name: 'Id Side Echo', url: 'https://apps.apple.com/us/app/idside-echo/id1342685134' },
+      { name: 'Id Texto', url: 'https://apps.apple.com/us/app/id-texto/id1461394776' },
+    ],
   },
   {
     id: '3',
@@ -47,10 +57,10 @@ export const experienceData: Experience[] = [
     endDate: 'May 2023',
     duration: '2 years',
     description:
-      'Designed and implemented features for the Workplace Management App, helping employees efficiently manage office facility usage.',
+      'Designed and implemented features for the Workplace Management App (OLA), helping employees efficiently manage office facility usage.',
     achievements: [
-      'Architected and delivered features for iOS and Android platforms',
-      'Implemented real-time notifications and synchronization mechanisms',
+      'Built interactive floor plan visualization with real-time occupancy status and QR code check-in system for LinkedIn\'s internal Workplace Management App - improving office resource utilization and employee productivity using Swift/Kotlin',
+      'Architected real-time system with WebSocket integration and native calendar synchronization (EventKit/CalendarContract) - serving thousands of LinkedIn employees for room bookings, desk reservations, food ordering, and meeting coordination across iOS and Android',
       'Led code review process ensuring high code quality standards',
       'Collaborated with product and design teams to deliver user-centric solutions',
       'Implemented analytics and monitoring to track app performance and user engagement',
@@ -58,6 +68,10 @@ export const experienceData: Experience[] = [
     ],
     technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'Kotlin', 'Dagger', 'Hilt', 'Koin', 'Jetpack Compose', 'MVVM', 'Clean Architecture', 'Combine', 'Coroutines'],
     isRemote: false,
+    articleLinks: [
+      { title: 'Introducing OLA: LinkedIn\'s internal mobile app for global workforce', url: 'https://engineering.linkedin.com/blog/2022/introducing-ola' },
+    ],
+    metrics: ['Thousands of LinkedIn employees', 'Real-time WebSocket integration', 'Multi-platform iOS/Android'],
   },
   {
     id: '4',
@@ -70,14 +84,20 @@ export const experienceData: Experience[] = [
     description:
       'Technical lead for multiple mission-critical mobile applications, managing teams of 2-6 developers across different projects.',
     achievements: [
-      'Led HR Management System App development, overseeing timesheets and payroll management for 500+ employees',
-      'Developed Vehicle Insurance System enabling customers to manage policies seamlessly',
-      'Collaborated with team of 6 developers on Healthcare and Fitness App features',
+      'Built enterprise HR Management System with digital timesheet management, leave workflow with approval hierarchy, secure payroll module featuring biometric authentication (Touch ID/Face ID), encrypted PDF payslips with bulk download capability, and employee directory with offline caching - serving 1000+ employees with SSL pinning and encrypted data storage',
+      'Built comprehensive vehicle insurance management system with digital policy dashboard displaying real-time coverage details, claims submission with photo upload, renewal workflow with premium recalculation based on NCB eligibility, and integrated payment gateway supporting multiple payment methods (UPI, cards, net banking) with PCI DSS compliance',
+      'Built class booking system for Life Time Member App (filtering by type, instructor, difficulty), spa/salon appointment scheduling with therapist selection, workout video streaming with offline download capability during COVID-19 lockdown, TV casting integration (AirPlay/ChromeCast) with real-time Heart Rate Monitor using BLE, and restaurant ordering with real-time order tracking',
       'Implemented enterprise-grade architecture patterns and best practices',
       'Managed end-to-end development lifecycle from design to deployment',
     ],
     technologies: ['iOS', 'Android', 'Swift', 'SwiftUI', 'UIKit', 'Kotlin', 'Dagger', 'Koin', 'Jetpack Compose', 'XML', 'MVVM', 'Clean Architecture', 'Coroutines'],
     isRemote: false,
+    appLinks: [
+      { name: 'Manpower Associates', url: 'https://apps.apple.com/us/app/my-manpower-trabajo-y-empleo/id1569784517' },
+      { name: 'Direct Auto Insurance', url: 'https://apps.apple.com/us/app/direct-auto-insurance/id1571501814' },
+      { name: 'Life Time Digital', url: 'https://apps.apple.com/us/app/life-time-digital/id1192326768' },
+    ],
+    metrics: ['1000+ employees', 'PCI DSS compliance', 'BLE integration'],
   },
   {
     id: '5',
@@ -90,14 +110,23 @@ export const experienceData: Experience[] = [
     description:
       'Developed and maintained multiple cross-platform mobile applications using Xamarin frameworks.',
     achievements: [
-      'Developed Training and Education App as sole developer, managing complete development lifecycle',
-      'Collaborated with team of 6 on Healthcare and Fitness App, integrating complex features',
-      'Built IT Services App using Xamarin.iOS with MvvmCross framework',
-      'Designed and implemented Aviation Management App with focus on regulatory compliance',
+      'Built mobile training platform for Xebia Academy supporting course catalog, enrollment management, training schedules, learning materials access, and progress tracking using Xamarin.Forms and Prism MVVM - enabling digital learning delivery for professional development courses. Sole developer responsible for complete development lifecycle',
+      'Built class booking system for Life Time Member App (filtering by type, instructor, difficulty), spa/salon appointment scheduling with therapist selection, workout video streaming with offline download capability during COVID-19 lockdown, TV casting integration (AirPlay/ChromeCast) with real-time Heart Rate Monitor using BLE, and restaurant ordering with real-time order tracking',
+      'Built IT Services App (Xamarin.iOS, MVVM): As sole developer, managed complete development and deployment supporting engagements with different companies',
+      'Built three aviation management systems for SpiceJet: SpicyCrewPortal for crew member access, InFlight Audit app for auditing crew behavior with digital report generation for government review, and Spice FMS (Fuel Management System) for controlling fuel usage with GPU/ACU monitoring',
       'Mentored team members on Xamarin and MVVM patterns',
     ],
     technologies: ['Xamarin.iOS', 'Xamarin.Android', 'Xamarin.Forms', 'C#', 'SQLite', 'MvvmCross', 'PrismMvvm', 'Azure DevOps', 'App Center', 'NuGet'],
     isRemote: false,
+    appLinks: [
+      { name: 'InFlight Audit', url: 'https://apps.apple.com/us/app/inflight-audit/id1557422816' },
+      { name: 'SpicyCrewPortal', url: 'https://apps.apple.com/us/app/spicycrewportal/id6741193510' },
+      { name: 'Spice FMS', url: 'https://apps.apple.com/us/app/spice-fms/id6444888522' },
+      { name: 'Life Time Digital', url: 'https://apps.apple.com/us/app/life-time-digital/id1192326768' },
+    ],
+    articleLinks: [
+      { title: 'Xebia Academy', url: 'https://xebia.com/academy' },
+    ],
   },
   {
     id: '6',
@@ -110,14 +139,17 @@ export const experienceData: Experience[] = [
     description:
       'Developed diverse mobile applications across iOS, Android, and Windows platforms, collaborating with global teams.',
     achievements: [
-      'Built Automated Vehicle Sales Management App optimizing user experience for dealerships',
-      'Created Mobile Analytics App with data visualization capabilities',
-      'Developed IT Services App supporting startup engagements',
-      'Built Inventory Management System with offline-first capabilities',
-      'Created Enterprise App Store for internal company app distribution',
-      'Developed Salesforce Management App for cloud-based operations',
+      'Built automated vehicle sales management app for Lookers UK dealership network with inventory management, customer relationship tracking, test drive scheduling, finance calculation tools, and digital paperwork processing - streamlining end-to-end sales workflow. Integrated real-time vehicle availability sync across multiple dealership locations, automated pricing engine with trade-in valuation, and digital signature capture using Xamarin.iOS, Xamarin.Android, and MvvmCross',
+      'Mobile Analytics App (Xamarin.iOS): Worked with team of 5 developers to create UI and integrate with mobile analytics API showing data in graphical format',
+      'IT Services App (Xamarin.WinPhone, Xamarin.Android): Worked with team of 4 developers providing support sales and communication for different startups',
+      'Inventory Management App (Xamarin.WinPhone, Xamarin.Android, SQLite): Worked with team of 5 developers to ease inventory management for a warehouse',
+      'Enterprise App Store (Xamarin.iOS): Worked with team of 4 developers to create space for company\'s internal apps segregated by department and categories',
+      'Salesforce Management App (Xamarin.Android): Cloud-based Management App to automate company management functions',
     ],
     technologies: ['Xamarin.iOS', 'Xamarin.Android', 'Xamarin.WinPhone', 'Xamarin.Forms', 'C#', 'SQLite', 'MvvmCross', 'PrismMvvm', 'Jenkins', 'TFS', 'NuGet'],
     isRemote: false,
+    articleLinks: [
+      { title: 'Lookers UK - Dealership Network', url: 'https://www.lookers.co.uk/' },
+    ],
   },
 ];

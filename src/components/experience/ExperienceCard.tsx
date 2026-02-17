@@ -65,6 +65,46 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
             </ul>
           )}
 
+          {experience.appLinks && experience.appLinks.length > 0 && (
+            <div className="app-links">
+              <h4>Apps:</h4>
+              <div className="links-grid">
+                {experience.appLinks.map((link, idx) => (
+                  <a
+                    key={idx}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="app-link"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {link.name} →
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {experience.articleLinks && experience.articleLinks.length > 0 && (
+            <div className="article-links">
+              <h4>Links:</h4>
+              <div className="links-grid">
+                {experience.articleLinks.map((link, idx) => (
+                  <a
+                    key={idx}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="article-link"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {link.title} →
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="technologies">
             {experience.technologies.map((tech) => (
               <span key={tech} className="tech-badge">

@@ -10,4 +10,7 @@ export interface Experience {
   achievements: string[];
   technologies: string[];
   isRemote?: boolean;
+  appLinks?: { name: string; url: string }[];
+  articleLinks?: { title: string; url: string }[];
+  metrics?: string[];
 }
