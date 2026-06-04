@@ -217,7 +217,6 @@ export const projectsData: Project[] = [
       'Manual constructor-based dependency injection',
       'Keychain for secure token storage',
       'Swift 6 with strict concurrency (@MainActor)',
-      'XcodeGen for Xcode project management',
     ],
     visibility: 'public',
     featured: true,
